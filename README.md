@@ -61,7 +61,7 @@ Cihazınıza pip3 nasıl kurulur?:
 `apt install -y pip`
 
 yada
-یا
+
 
 `apt install -y pip3`
 
@@ -72,7 +72,7 @@ fg
 `pip install colored --upgrade`
 
 yada
-یا
+
 
 `pip3 install colored --upgrade`
 
