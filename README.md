@@ -1,74 +1,71 @@
 [![](https://img.shields.io/static/v1?label=Owner&message=Mji~DarkPwn&color=black)](http://127.0.0.1:9050) ![GithubAllStars](https://img.shields.io/github/stars/C4ssif3r/admin-panel-finder?style=social) ![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
-##### admin panel finder python tool 🔥🔫
+#####  Admin paneli bulucu python aracı 🔥🔫
 
-English: A powerful script for find login [admin] pages 💯 have +7000 link admin page ! And have 800+ subdamins !
+Giriş [yönetici] sayfalarını bulmak için güçlü bir komut dosyası 💯 +7000 bağlantı yönetici sayfasına sahiptir! Ve 800'den fazla alt damin var!
 
-A Python Script for find Web Site Admin Login Page.
+Web Sitesi Yöneticisi Giriş Sayfasını bulmak için bir Python Komut Dosyası.
 
-فارسی:
-سابدامین800 +
- یک ابزار قدرتمند برای پیدا کردن پیج لاگین ادمین ! 💯 دارای 7000+ لینک پیج ادمین 
 
-###  start menu : 
+###  Başlangıç menüsü : 
 > ![Screenshot_2022-07-03-22-25-01-337_com offsec nethunter kex](https://user-images.githubusercontent.com/79422726/177051729-03019592-a050-479e-9c83-e3641cc205f3.jpg)
 
 
-###  method 1
+###  yötem 1
 
 > ![Screenshot_2022-07-03-22-26-04-575_com offsec nethunter kex](https://user-images.githubusercontent.com/79422726/177051721-2157ea88-a426-4eca-a8ab-bdb906a1e93d.jpg)
 
-  + the subdomains searcher for find subdamins from {target_url}
-  + example test with sub_manual:
-  + target > google.com
-  + example[1] > admin.google.com
-  + example[2] > cpanel.google.com
+  + adresinden alt sunucuları bulmak için alt alan arama aracı {hedef_url}
+  + sub_manual ile örnek test
+  + hedef > google.com
+  + örnek[1] > admin.google.com
+  + örnek[2] > cpanel.google.com
 # -------------------
 
-###  method 2 :
+###  yöntem 2 :
 
 > ![Screenshot_2022-05-02-20-26-37-493_com offsec nethunter kex](https://user-images.githubusercontent.com/79422726/166290641-e741c57b-1950-4ad1-9949-7aa1b79dc71f.jpg)
    
-  + the manual list search admin panels with [patch(dirs)]
-  + Example search with manual list:
-  + target > google.com
-  + example[1] > google.com/admin
-  + example[2] > google.com/cpanel
+  + manuel liste arama yönetici panelleri [patch(dirs)]
+  + Manuel listeyle örnek arama:
+  + hedef > google.com
+  + örnek[1] > google.com/admin
+  + örnek[2] > google.com/cpanel
 
 
 
 
 
-# > Requirements:
+# > Gereksinimler:
 
 
 Python3
 pip3
 
 
-How to install python on your device?:
+Python'u cihazınıza nasıl yükleyebilirim?:
 
 نحوه نصب پایتون بر روی دستگاه شما ؟:
 
 `apt install -y python`
 
-Or 
+yada 
 یا
 
 `apt install -y python3`
 
-how to install pip3 on your device?:
+Cihazınıza pip3 nasıl kurulur?:
 
 نحوه نصب pip3 بر روی دستگاه شما:
 
 `apt install -y pip`
 
-Or
+yada
 یا
 
 `apt install -y pip3`
 
-If you get an error[fg not definded], enter this command:
+Eğer [fg tanımlı değil] hatası alırsanız şu komutu girin:
 
 اگر شما یک خطا مبنی بر اینکه
 fg 
@@ -76,17 +73,17 @@ fg
 
 `pip install colored --upgrade`
 
-Or
+yada
 یا
 
 `pip3 install colored --upgrade`
 
-🪲 Tested on termux and linux and win10:
+🪲 Termux, linux ve win10'da test edilmiştir:
 
 🪲 تست شده بر روی لینوکس و ترموکس و ویندوز10
 
 
-### 📌 How to Launch ?
+### 📌 Nasıl Başlatılır ?
 
 نحوه راه اندازی 📌 :
 
@@ -94,4 +91,4 @@ Or
 
 ```cd admin-panel-finder```
 
-`python admin-finder.py`
+`python3 admin-finder.py`
